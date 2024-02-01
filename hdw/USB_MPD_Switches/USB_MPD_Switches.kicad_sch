@@ -1,0 +1,55 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 62d9a549-2742-4d98-96b6-bf7a87f3799a)
+
+  (paper "A")
+
+  (title_block
+    (title "USB MPD")
+    (date "2024-02-01")
+    (rev "PRELIM")
+    (company "Drew Maatman")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 34.925 27.94) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid abc131ef-9232-4c48-9a74-f81897d40aea)
+    (property "Sheetname" "STM32F103 Core" (at 34.925 27.2284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "STM32F103_core.kicad_sch" (at 34.925 32.3346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USB_MPD_Switches"
+        (path "/62d9a549-2742-4d98-96b6-bf7a87f3799a" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 34.925 38.1) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c52f335e-c051-4bb5-99cb-33379bf7e677)
+    (property "Sheetname" "Shift Registers" (at 34.925 37.3884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "shift_registers.kicad_sch" (at 34.925 42.4946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USB_MPD_Switches"
+        (path "/62d9a549-2742-4d98-96b6-bf7a87f3799a" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
