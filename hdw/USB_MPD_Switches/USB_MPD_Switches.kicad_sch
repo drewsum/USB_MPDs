@@ -15,6 +15,57 @@
   )
 
 
+  (sheet (at 34.925 68.58) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 4cdf23bc-4b5c-486c-a806-332da4ddd755)
+    (property "Sheetname" "Cap Touch 3" (at 34.925 67.8684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cap_touch_3.kicad_sch" (at 34.925 72.9746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USB_MPD_Switches"
+        (path "/62d9a549-2742-4d98-96b6-bf7a87f3799a" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 34.925 48.26) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5f465d3a-417a-4564-add0-6b5b66c97f64)
+    (property "Sheetname" "Cap Touch 1" (at 34.925 47.5484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cap_touch_1.kicad_sch" (at 34.925 52.6546 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USB_MPD_Switches"
+        (path "/62d9a549-2742-4d98-96b6-bf7a87f3799a" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 34.925 58.42) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 7cd4e104-c64c-48e4-9211-828159723ee3)
+    (property "Sheetname" "Cap Touch 2" (at 34.925 57.7084 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "cap_touch_2.kicad_sch" (at 34.925 62.8146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USB_MPD_Switches"
+        (path "/62d9a549-2742-4d98-96b6-bf7a87f3799a" (page "5"))
+      )
+    )
+  )
+
   (sheet (at 34.925 27.94) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))

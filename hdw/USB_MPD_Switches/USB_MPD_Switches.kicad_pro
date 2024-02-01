@@ -334,6 +334,18 @@
     [
       "c52f335e-c051-4bb5-99cb-33379bf7e677",
       "Shift Registers"
+    ],
+    [
+      "5f465d3a-417a-4564-add0-6b5b66c97f64",
+      "Cap Touch 1"
+    ],
+    [
+      "7cd4e104-c64c-48e4-9211-828159723ee3",
+      "Cap Touch 2"
+    ],
+    [
+      "4cdf23bc-4b5c-486c-a806-332da4ddd755",
+      "Cap Touch 3"
     ]
   ],
   "text_variables": {}
