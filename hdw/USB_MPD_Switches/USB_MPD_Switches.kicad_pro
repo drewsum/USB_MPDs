@@ -346,6 +346,14 @@
     [
       "4cdf23bc-4b5c-486c-a806-332da4ddd755",
       "Cap Touch 3"
+    ],
+    [
+      "d0c787c4-68a0-46ee-a630-39b193201f18",
+      "USB Port"
+    ],
+    [
+      "c46df137-1624-4129-bf8e-9c95f0843e7e",
+      "+3.3V Power Supply"
     ]
   ],
   "text_variables": {}

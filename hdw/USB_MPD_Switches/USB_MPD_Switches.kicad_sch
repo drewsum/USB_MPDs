@@ -6,7 +6,7 @@
 
   (title_block
     (title "USB MPD")
-    (date "2024-02-01")
+    (date "2024-02-06")
     (rev "PRELIM")
     (company "Drew Maatman")
   )
@@ -83,6 +83,23 @@
     )
   )
 
+  (sheet (at 34.925 88.9) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c46df137-1624-4129-bf8e-9c95f0843e7e)
+    (property "Sheetname" "+3.3V Power Supply" (at 34.925 88.1884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pos3p3_power_supply.kicad_sch" (at 34.925 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USB_MPD_Switches"
+        (path "/62d9a549-2742-4d98-96b6-bf7a87f3799a" (page "8"))
+      )
+    )
+  )
+
   (sheet (at 34.925 38.1) (size 12.7 3.81) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -96,6 +113,23 @@
     (instances
       (project "USB_MPD_Switches"
         (path "/62d9a549-2742-4d98-96b6-bf7a87f3799a" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 34.925 78.74) (size 12.7 3.81) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid d0c787c4-68a0-46ee-a630-39b193201f18)
+    (property "Sheetname" "USB Port" (at 34.925 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb_port.kicad_sch" (at 34.925 83.1346 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "USB_MPD_Switches"
+        (path "/62d9a549-2742-4d98-96b6-bf7a87f3799a" (page "7"))
       )
     )
   )
